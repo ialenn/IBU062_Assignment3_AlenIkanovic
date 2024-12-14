@@ -24,3 +24,13 @@ PC3
 PC4
     - IP: 210.3.14.4
     - Gateway: 210.3.14.1
+
+DHCP Configuration on Router
+- Configure DHCP pools for Switch 1 and Switch 2:
+  ip dhcp pool Switch1
+  network 168.90.0.0 255.255.0.0
+  default-router 168.90.0.1
+
+  ip dhcp pool Switch2
+  network 210.3.14.0 255.255.255.0
+  default-router 210.3.14.1
