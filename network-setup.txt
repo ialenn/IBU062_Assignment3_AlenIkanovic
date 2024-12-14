@@ -13,8 +13,14 @@ Devices in the Network
   - PC0: IP 168.90.0.3
   - PC1: IP 168.90.0.4
   - Server0: IP 168.90.0.5
+PC3
+   - IP: 168.90.0.6
+   - Gateway: 168.90.0.1
 
 - Hosts connected to Switch 2:
   - PC2: IP 210.3.14.2
   - Server1: IP 210.3.14.3
   - Server2: IP 210.3.14.4
+PC4
+    - IP: 210.3.14.4
+    - Gateway: 210.3.14.1
